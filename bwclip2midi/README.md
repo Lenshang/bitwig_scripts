@@ -1,5 +1,7 @@
 # bwclip2midi — Bitwig Studio .bwclip → Standard MIDI File Converter
 
+English | [简体中文](README.zh-CN.md)
+
 Converts MIDI clips exported from Bitwig Studio (`.bwclip`) into standard
 MIDI files (`.mid`) that open in any DAW or sequencer.
 
@@ -139,7 +141,3 @@ range at its position (≤ 1 LSB rounding tolerance).
 
 - `bwclip2midi.py` — the converter (parser included, single file)
 - `bwclip2midi.bat` — Windows drag-and-drop entry point
-- `analysis/` — reverse-engineering artifacts (decompiled sources,
-  prototype parser, verification scripts)
-- `bwclip_sample/` — sample inputs
-- `output/` — conversion output
